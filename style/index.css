@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+main p{
+    margin: 10% 0px;
+}
+
+#land h2{
+    line-height: 1.3em;
+    font-size: calc(30px + (26/1920) * 100vw);
+    color: white;
+}
+
+#land p{
+    line-height: 1.3em;
+    margin-top: 12%;
+    color: lightgray;
+}
+
+#landImage{
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    max-width: 100%;
+}
+
+.alternada{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+}
+
+.alternada > *{
+    max-width: 420px;
+    padding: 20px 20px;
+    margin: auto;
+}
+
+.alternada picture{
+    display: flex;
+}
+
+.invertedRow{
+    flex-direction: row-reverse;
+}
+
+#divisor{
+    background-color: #A6269D;
+    height: 100px;
+}
+
+#foto{
+    border-radius: 50%;
+    box-shadow: 0px 0px 15px 4px #30c8d94d;
+}

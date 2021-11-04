@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+html{
+    height: 100%;
+    background-color:#272934;
+    background-attachment: fixed;
+}
+
+*{
+    margin: 0px;
+    font-family: Ubuntu, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    display: flex;
+    color: white;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header > a{
+    margin: auto;
+    padding: 20px 5px;
+}
+
+main{
+    max-width: 1320px;
+    margin: auto;
+    padding: 20px;
+}
+
+main h2{
+    color: white;
+    line-height: 1.2em;
+    font-size: calc(20px + (15/1920) * 100vw);
+}
+
+main p{
+    line-height: 1.3em;
+    color: lightgray;
+}
+
+main a{
+    margin: auto;
+}
+
+main article{
+    display: flex;
+    flex-direction: column;
+}
+
+footer{
+    margin-top: 50px;
+    padding: 20px 0px;
+    background-color: #401663;
+}
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+footer article{
+    width: 300px;
+    padding: 0px 20px;
+}
+
+footer p{
+    text-align: center;
+    padding: 5px 0px;
+    color: lightgray;
+}
+
+footer a{
+    color: lightgray;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+.copyr{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.fleximage{
+    display: flex;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+.imageBorder{
+    border-radius: 5%;
+}
+
+.button:hover{
+    background-color: hsl(307, 80%, 50%);
+}
+
+.button{
+    border-radius: 5px;
+    background-color: #A42495;
+    color: white;
+    font-size: calc(18px + (10/1920) * 100vw);
+    font-weight: bold;
+    border: 0px;
+    padding: 7px 5px;
+    margin: auto;
+}
+
+.titulo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    font-size: 1.3em;
+}
+
+.titulo img{
+    width: 60px;
+    margin: auto;
+    padding-right: 2px;
+    border-radius: 50%;
+    box-shadow: -1px -1px 15px 4px #30c8d94d;
+}
+
+.titulo h1{
+    color: white;
+    padding-left: 2px;
+    margin: auto;
+}
+
+.discord{
+    margin-left: 5px;
+}
+
+.collum{
+    flex-direction: column;
+}

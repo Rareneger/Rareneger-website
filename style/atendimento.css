@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+#googleform{
+    width: 100%;
+    min-height: 1811px;
+    height: calc(-0.939*100vw + 2434px);
+}
+
+#endmessage{
+    padding-top: 5%;
+    text-align: center;
+    line-height: 1.5em;
+    font-size: calc(16px + (8/1300) * 100vw);
+}
+
+#endmessage h2{
+    font-size: calc(24px + (16/1300) * 100vw);
+}
